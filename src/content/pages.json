@@ -1,0 +1,342 @@
+{
+  "elementor-18691": {
+    "title": "Local E-Guides",
+    "blocks": [
+      {
+        "type": "heading",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">E-GUIDES</h2>\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "text-editor",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t<p style=\"color: #5e5e5e; font-family: &#x27;Pt Serif&#x27;, serif; font-size: 15px; line-height: 1.8; margin-bottom: 20px;\"><strong style=\"text-align: var(--text-align);\"><em>Local knowledge is great, but highly curated local knowledge is so much greater.</em></strong></p><p style=\"color: #5e5e5e; font-family: &#x27;Pt Serif&#x27;, serif; font-size: 15px; line-height: 1.8; margin-bottom: 20px;\">Each of my downloadable e-guides will save you hours of research with:</p><p style=\"color: #5e5e5e; font-family: &#x27;Pt Serif&#x27;, serif; font-size: 15px; line-height: 1.8; margin-bottom: 20px;\">\u2022 Hand-picked hotels</p><p style=\"color: #5e5e5e; font-family: &#x27;Pt Serif&#x27;, serif; font-size: 15px; line-height: 1.8; margin-bottom: 20px;\">\u2022 Top-rated activities</p><p style=\"color: #5e5e5e; font-family: &#x27;Pt Serif&#x27;, serif; font-size: 15px; line-height: 1.8; margin-bottom: 20px;\">\u2022 Local restaurants and bars</p><p style=\"color: #5e5e5e; font-family: &#x27;Pt Serif&#x27;, serif; font-size: 15px; line-height: 1.8; margin-bottom: 20px;\">\u2022 Hidden gems only locals know about</p><p style=\"color: #5e5e5e; font-family: &#x27;Pt Serif&#x27;, serif; font-size: 15px; line-height: 1.8; margin-bottom: 20px;\"><span style=\"box-sizing: border-box; margin: 0px; padding: 0px;\">\u2022 All with clickable links so you can book with ease</span></p><p style=\"color: #5e5e5e; font-family: &#x27;Pt Serif&#x27;, serif; font-size: 15px; line-height: 1.8; margin-bottom: 20px;\"><span style=\"font-weight: bolder;\">Only $5 each, </span>entirely curated by I am Lost and Found, and delivered to your inbox in seconds.</p><p><strong>Click below to get yours!</strong></p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "image",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://iamlostandfound.com/product/guide-summer-in-stowe/\" target=\"_blank\">\n\t\t\t\t\t\t\t<img fetchpriority=\"high\" decoding=\"async\" width=\"671\" height=\"930\" src=\"https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2025/02/SUMMERSTOWEGUIDEthumb.jpg?fit=671%2C930&amp;ssl=1\" class=\"attachment-large size-large wp-image-18841\" alt=\"Stowe E-guide\" srcset=\"https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2025/02/SUMMERSTOWEGUIDEthumb.jpg?w=671&amp;ssl=1 671w, https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2025/02/SUMMERSTOWEGUIDEthumb.jpg?resize=216%2C300&amp;ssl=1 216w, https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2025/02/SUMMERSTOWEGUIDEthumb.jpg?resize=600%2C832&amp;ssl=1 600w\" sizes=\"(max-width: 671px) 100vw, 671px\">\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "image",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://iamlostandfound.com/product/the-ultimate-non-skiers-guide-to-stowe/\" target=\"_blank\">\n\t\t\t\t\t\t\t<img decoding=\"async\" width=\"450\" height=\"583\" src=\"https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2025/01/StoweThumb.jpg?fit=450%2C583&amp;ssl=1\" class=\"attachment-large size-large wp-image-18459\" alt=\"Stowe E-Guide\" srcset=\"https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2025/01/StoweThumb.jpg?w=450&amp;ssl=1 450w, https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2025/01/StoweThumb.jpg?resize=232%2C300&amp;ssl=1 232w\" sizes=\"(max-width: 450px) 100vw, 450px\">\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "image",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://iamlostandfound.com/product/merida-total-access/\" target=\"_blank\">\n\t\t\t\t\t\t\t<img decoding=\"async\" width=\"450\" height=\"583\" src=\"https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2025/01/MeridaThumb.jpg?fit=450%2C583&amp;ssl=1\" class=\"attachment-large size-large wp-image-18458\" alt=\"Merida E-Guide\" srcset=\"https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2025/01/MeridaThumb.jpg?w=450&amp;ssl=1 450w, https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2025/01/MeridaThumb.jpg?resize=232%2C300&amp;ssl=1 232w\" sizes=\"(max-width: 450px) 100vw, 450px\">\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "image",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://iamlostandfound.com/product/local-knowledge-georgetown-dc-guide/\" target=\"_blank\">\n\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"450\" height=\"583\" src=\"https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2025/01/GeorgetownThumb.jpg?fit=450%2C583&amp;ssl=1\" class=\"attachment-large size-large wp-image-18457\" alt=\"Georgetown E-Guide\" srcset=\"https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2025/01/GeorgetownThumb.jpg?w=450&amp;ssl=1 450w, https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2025/01/GeorgetownThumb.jpg?resize=232%2C300&amp;ssl=1 232w\" sizes=\"(max-width: 450px) 100vw, 450px\">\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t"
+      }
+    ]
+  },
+  "travel-coaching-2": {
+    "title": "Travel Coaching",
+    "blocks": [
+      {
+        "type": "heading",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h3 class=\"elementor-heading-title elementor-size-default\">TRAVEL COACHING</h3>\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "image",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"596\" src=\"https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2026/01/JamieEgypt3.jpg?fit=400%2C596&amp;ssl=1\" class=\"attachment-large size-large wp-image-24948\" alt=\"Jamie in Egypt\" srcset=\"https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2026/01/JamieEgypt3.jpg?w=400&amp;ssl=1 400w, https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2026/01/JamieEgypt3.jpg?resize=201%2C300&amp;ssl=1 201w\" sizes=\"(max-width: 400px) 100vw, 400px\">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "text-editor",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t<p>I love talking about travel. Put me in a coffee shop and within minutes I\u2019ll be comparing favorite trips, restaurants, and hotels with the person sitting next to me.</p><p>If you\u2019re here, you likely share my style of wanderlust. But even the most enthusiastic travelers find that researching is a commitment they don\u2019t have the time or energy for. These days, it\u2019s not a lack of information. It\u2019s too much of it. Too many choices, too many keywords, too many hours lost down rabbit holes.</p><p>That\u2019s where I come in. Research is my sweet spot.</p><p>Anyone can Google a destination, but knowing the right sources, finding the lesser-known gems, and the places worth your time\u2014well, that\u2019s an art that takes time. I cut through the noise, saving you from <strong>hours of searching in the wrong places.\u00a0</strong></p><p>Jamie Edwards Travel Coaching is a curated, considered approach to help you plan your next adventure, designed with your specific needs, budget, and travel style in mind. <strong>I research every trip as if I were taking it myself.</strong> My recommendations are shaped by intention; what\u2019s worth your time and what\u2019s not.</p><p>After visiting more than <strong>70 countries across all seven continents,</strong> I know how overwhelming travel planning can be. But I also know it doesn\u2019t have to feel that way.</p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "heading",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h3 class=\"elementor-heading-title elementor-size-default\">HOW IT WORKS</h3>\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "heading",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h4 class=\"elementor-heading-title elementor-size-default\">Complimentary Discovery Call</h4>\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "text-editor",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t<p>You talk, I listen. We\u2019ll uncover your travel style\u2014your must-haves, deal-breakers, budget, travel dreams (and travel nightmares).</p><p>Click here to schedule your <a href=\"https://calendly.com/jamie-iamlostandfound/45min\" target=\"_blank\" rel=\"noopener\"><b>Complimentary Discovery Call</b></a></p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "heading",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h3 class=\"elementor-heading-title elementor-size-default\">Deliverables</h3>\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "text-editor",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t<p>Should you choose to work with me, you\u2019ll receive highly curated destination ideas, complete with lodging, must-do experiences, and hidden gems\u2014all with <strong>clickable</strong>\u00a0links so you can easily book.</p>\n<p>Access to my<strong> library of hundreds of destinations\u00a0</strong>based on 25+ years of travel, including places you didn\u2019t even know existed.</p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "heading",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h3 class=\"elementor-heading-title elementor-size-default\">Follow-Up</h3>\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "divider",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<div class=\"elementor-divider\">\n\t\t\t<span class=\"elementor-divider-separator\">\n\t\t\t\t\t\t</span>\n\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "text-editor",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t<p>We\u2019ll refine, tweak, and finalize. By the end, you\u2019ll have your next adventure\u00a0<em>ready to book</em>.</p><p><strong>Jamie Edwards Travel Coaching. My research. Your adventure.</strong></p><p>Click here to schedule your <a href=\"https://calendly.com/jamie-iamlostandfound/45min\" target=\"_blank\" rel=\"noopener\"><b>Complimentary Discovery Call </b></a>on my calendar. No pressure\u2014just travel talk.</p><p>I\u2019m ready when you are.</p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "heading",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">PERSONALIZED COACHING SERVICES START AT $600</h2>\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "divider",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<div class=\"elementor-divider\">\n\t\t\t<span class=\"elementor-divider-separator\">\n\t\t\t\t\t\t</span>\n\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "image",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"768\" height=\"593\" src=\"https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2025/03/1.png?fit=768%2C593&amp;ssl=1\" class=\"attachment-medium_large size-medium_large wp-image-18977\" alt=\"Travel Coaching Logo\" srcset=\"https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2025/03/1.png?w=2000&amp;ssl=1 2000w, https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2025/03/1.png?resize=300%2C232&amp;ssl=1 300w, https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2025/03/1.png?resize=1024%2C791&amp;ssl=1 1024w, https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2025/03/1.png?resize=768%2C593&amp;ssl=1 768w, https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2025/03/1.png?resize=1536%2C1187&amp;ssl=1 1536w, https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2025/03/1.png?resize=600%2C464&amp;ssl=1 600w, https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2025/03/1.png?w=1600 1600w\" sizes=\"(max-width: 768px) 100vw, 768px\">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "heading",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h3 class=\"elementor-heading-title elementor-size-default\">My Research. Your Adventure.</h3>\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "heading",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h3 class=\"elementor-heading-title elementor-size-default\">Please fill out the form below and let's get started.</h3>\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "inquiry",
+        "html": ""
+      },
+      {
+        "type": "heading",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h3 class=\"elementor-heading-title elementor-size-default\">CLIENT TESTIMONIALS</h3>\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "divider",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<div class=\"elementor-divider\">\n\t\t\t<span class=\"elementor-divider-separator\">\n\t\t\t\t\t\t</span>\n\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "text-editor",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t<p>\u201cFinding the right place to fit your family, budget, and interests can be daunting and overwhelming. I\u2019ve always loved seeing Jamie\u2019s social media posts and love how\u00a0<strong>she finds places before the masses do,</strong>\u00a0and they always have a mix of luxury, relaxation, adventure, and beauty. I knew she was the perfect person to help plan our summer family trip.\u00a0<strong>Her guidance was spot on.</strong>\u00a0Thank you, Jamie!\u201d</p>\n<p><em>-Susan S. (on planning Hawaii)</em></p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "divider",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<div class=\"elementor-divider\">\n\t\t\t<span class=\"elementor-divider-separator\">\n\t\t\t\t\t\t</span>\n\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "text-editor",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t<p>\u201cI can\u2019t recommend Jamie enough as a travel coach! With two young kids, we wanted to take a trip but\u00a0<strong>felt completely overwhelmed by the research. </strong>Then we found Jamie.</p>\n<p>She guided us through a discovery process to pinpoint what truly mattered to us and <strong>curated personalized recommendations, complete with links to accommodations,</strong> and the pros and cons of each choice. But her firsthand experience set her apart<strong>\u2014</strong> insights you won\u2019t find online. Like how attentive the staff would be to kids, whether the resort\u2019s \u201call-inclusive\u201d actually covered what we\u2019d need and even hidden costs that aren\u2019t obvious at first glance.</p>\n<p>Her expertise made the difference between another year of saying \u201cmaybe next time\u201d and <strong>booking the perfect trip.</strong> If you\u2019re feeling stuck in the planning stage, Jamie is exactly who you need!\u201d</p>\n<p><em>-Jay T. (on planning a family Caribbean getaway)</em></p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "divider",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<div class=\"elementor-divider\">\n\t\t\t<span class=\"elementor-divider-separator\">\n\t\t\t\t\t\t</span>\n\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "text-editor",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t<p>\u201cCurrently basking on the beach, thinking\u2026 how did we get here? Didn&#8217;t know how badly we needed this vacation until our feet hit the sand. THANK YOU for the <strong>guidance and inspiration,</strong> Jamie!\u201d</p>\n<p><em>-Claire G.</em></p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "divider",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<div class=\"elementor-divider\">\n\t\t\t<span class=\"elementor-divider-separator\">\n\t\t\t\t\t\t</span>\n\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t"
+      }
+    ]
+  },
+  "blue-rock-photo-gallery": {
+    "title": "Blue Rock: Photo Gallery",
+    "blocks": []
+  },
+  "about-me": {
+    "title": "About Me",
+    "blocks": [
+      {
+        "type": "heading",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h3 class=\"elementor-heading-title elementor-size-default\">ABOUT ME</h3>\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "image",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"596\" src=\"https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2026/01/JamieEgypt3.jpg?fit=400%2C596&amp;ssl=1\" class=\"attachment-large size-large wp-image-24948\" alt=\"Jamie in Egypt\" srcset=\"https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2026/01/JamieEgypt3.jpg?w=400&amp;ssl=1 400w, https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2026/01/JamieEgypt3.jpg?resize=201%2C300&amp;ssl=1 201w\" sizes=\"(max-width: 400px) 100vw, 400px\">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "divider",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<div class=\"elementor-divider\">\n\t\t\t<span class=\"elementor-divider-separator\">\n\t\t\t\t\t\t</span>\n\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "text-editor",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t<p class=\"\" style=\"color: #5e5e5e; font-family: &#x27;pt serif&#x27;, serif; font-size: 15px; line-height: 1.8; margin-bottom: 20px; text-align: left;\">My name is Jamie Edwards. I\u2019m the creator of\u00a0<em>I am Lost and Found</em>\u2014a website that inspires travel. I created this site to share experiences about the places I\u2019ve been, hoping that it inspires others to travel, too.</p><p class=\"\" style=\"color: #5e5e5e; font-family: &#x27;pt serif&#x27;, serif; font-size: 15px; line-height: 1.8; margin-bottom: 20px;\"><span style=\"font-weight: bolder;\">Why do I travel?</span></p><p class=\"\" style=\"color: #5e5e5e; font-family: &#x27;pt serif&#x27;, serif; font-size: 15px; line-height: 1.8; margin-bottom: 20px;\">One of my favorite authors sums it up best:</p><p class=\"\" style=\"color: #5e5e5e; font-family: &#x27;pt serif&#x27;, serif; font-size: 15px; line-height: 1.8; margin-bottom: 20px;\">\u201cWe travel for the same reason we read: to remind ourselves of the existence, and also the inexplicability, of other lives, to recognize ourselves within that which is foreign to us. We are one person when we begin a trip, or a book, or an article; we are another person when we conclude it. Another person, but also the same\u2014we take the journey to see ourselves.\u201d<br><em>\u2014Hanya Yanagihara, A Little Life</em></p><p class=\"\" style=\"color: #5e5e5e; font-family: &#x27;pt serif&#x27;, serif; font-size: 15px; line-height: 1.8; margin-bottom: 20px;\">Travel is a privilege. Every trip I take changes me as a person, as a mother, as a wife, as a friend. The positive effects of travel make me more open-minded, more patient, less judgemental, less critical.</p><p class=\"\" style=\"color: #5e5e5e; font-family: &#x27;pt serif&#x27;, serif; font-size: 15px; line-height: 1.8; margin-bottom: 20px;\">In the literal sense, travel has taken me to far corners of the Earth\u2014from the\u00a0<a href=\"https://iamlostandfound.com/winter-in-finland/\" target=\"_blank\" rel=\"noreferrer noopener\">Arctic Circle</a>\u00a0to the\u00a0<a href=\"https://iamlostandfound.com/how-to-travel-to-antarctica/\" target=\"_blank\" rel=\"noreferrer noopener\">Antarctic continent.</a>\u00a0In my travels, I\u2019ve bungee jumped in New Zealand, climbed the Tiger\u2019s Nest in Bhutan, and tracked\u00a0<a href=\"https://iamlostandfound.com/tracking-silverbacks-uganda/\" target=\"_blank\" rel=\"noreferrer noopener\">silverback gorillas in Uganda</a>. Along the way, I met a Burundian Olympic Gold medalist, a Cambodian monk, and a S\u00e1mi shaman.</p><p class=\"\" style=\"color: #5e5e5e; font-family: &#x27;pt serif&#x27;, serif; font-size: 15px; line-height: 1.8; margin-bottom: 20px;\">I write about travel because I\u2019m an ardent sharer of my favorite experiences. My writing aims to transport people to destinations so that they feel they are right there with me. Or better yet, I hope my writing encourages people to book a flight and explore those destinations themselves.</p><p class=\"\" style=\"color: #5e5e5e; font-family: &#x27;pt serif&#x27;, serif; font-size: 15px; line-height: 1.8; margin-bottom: 20px;\">Where I choose to travel matters. As Hanya Yanagihara writes, I take the journey to see myself. What I discover isn\u2019t always what I expect, especially when the\u00a0journey is considered risky. Yet I wouldn\u2019t have it any other way. I take risks because the rewards that accompany them are invaluable.</p><p class=\"\" style=\"color: #5e5e5e; font-family: &#x27;pt serif&#x27;, serif; font-size: 15px; line-height: 1.8; margin-bottom: 20px;\">I currently live in Stowe, Vermont, with my husband, two kids, and two black labs. Before <a href=\"https://iamlostandfound.com/locals-guide-fall-stowe/\" target=\"_blank\" rel=\"noopener\">Vermont,</a> we lived in <a href=\"https://iamlostandfound.com/georgetown/\" target=\"_blank\" rel=\"noopener\">Washington DC,</a> <a href=\"https://iamlostandfound.com/destination-tokyo-sights/\" target=\"_blank\" rel=\"noopener\">Tokyo,</a> and NYC.\u00a0</p><p class=\"\" style=\"color: #5e5e5e; font-family: &#x27;pt serif&#x27;, serif; font-size: 15px; line-height: 1.8; margin-bottom: 20px;\">My travel experiences have shaped me. They\u2019ve helped me see the world from multiple perspectives. But above all, they\u2019ve reminded me that a little life is bound to grow when we get outside of our comfort zones.</p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "heading",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h3 class=\"elementor-heading-title elementor-size-default\">AWARDS</h3>\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "divider",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<div class=\"elementor-divider\">\n\t\t\t<span class=\"elementor-divider-separator\">\n\t\t\t\t\t\t</span>\n\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "heading",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h4 class=\"elementor-heading-title elementor-size-default\">HONORABLE MENTION<br><br>CULINARY-RELATED TRAVEL, THE SOCIETY OF AMERICAN TRAVEL WRITERS</h4>\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "text-editor",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t<p><a href=\"https://iamlostandfound.com/hisa-franko-best-restaurant-world/\" target=\"_blank\" rel=\"noopener\"><em>Hisa Franko is the 21st Best Restaurant in the World</em></a></p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "image",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"250\" height=\"250\" src=\"https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2022/09/unnamed-1.png?fit=250%2C250&amp;ssl=1\" class=\"attachment-large size-large wp-image-11349\" alt=\"SATW logo\" srcset=\"https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2022/09/unnamed-1.png?w=250&amp;ssl=1 250w, https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2022/09/unnamed-1.png?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2022/09/unnamed-1.png?resize=150%2C150&amp;ssl=1 150w\" sizes=\"(max-width: 250px) 100vw, 250px\">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "divider",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<div class=\"elementor-divider\">\n\t\t\t<span class=\"elementor-divider-separator\">\n\t\t\t\t\t\t</span>\n\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "heading",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h4 class=\"elementor-heading-title elementor-size-default\">FINALIST, EXCELLENCE IN JOURNALISM, IFWTWA</h4>\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "text-editor",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t<p><a href=\"https://iamlostandfound.com/traveling-around-the-room/\" target=\"_blank\" rel=\"noopener\"><em>Traveling Around the Room</em></a></p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "image",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"600\" height=\"428\" src=\"https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2022/04/IFWTWAawardsmall.jpg?fit=600%2C428&amp;ssl=1\" class=\"attachment-large size-large wp-image-9973\" alt=\"award\" srcset=\"https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2022/04/IFWTWAawardsmall.jpg?w=600&amp;ssl=1 600w, https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2022/04/IFWTWAawardsmall.jpg?resize=300%2C214&amp;ssl=1 300w\" sizes=\"(max-width: 600px) 100vw, 600px\">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "divider",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<div class=\"elementor-divider\">\n\t\t\t<span class=\"elementor-divider-separator\">\n\t\t\t\t\t\t</span>\n\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "heading",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h3 class=\"elementor-heading-title elementor-size-default\">CONTRIBUTING WRITING</h3>\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "divider",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<div class=\"elementor-divider\">\n\t\t\t<span class=\"elementor-divider-separator\">\n\t\t\t\t\t\t</span>\n\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "text-editor",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t<p>National Geographic, The Traveler&#8217;s Atlas: <a href=\"https://amzn.to/3HFoY6w\" target=\"_blank\" rel=\"noopener\">Available on Amazon Here</a></p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "image",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://amzn.to/3HFoY6w\" target=\"_blank\">\n\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"499\" src=\"https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2025/06/travelersatlas.jpg?fit=400%2C499&amp;ssl=1\" class=\"attachment-medium_large size-medium_large wp-image-20113\" alt=\"The Travelers Atlas Book\" srcset=\"https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2025/06/travelersatlas.jpg?w=400&amp;ssl=1 400w, https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2025/06/travelersatlas.jpg?resize=240%2C300&amp;ssl=1 240w\" sizes=\"(max-width: 400px) 100vw, 400px\">\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "divider",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<div class=\"elementor-divider\">\n\t\t\t<span class=\"elementor-divider-separator\">\n\t\t\t\t\t\t</span>\n\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "image",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"250\" height=\"67\" src=\"https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2024/01/Screen-Shot-2024-01-15-at-1.56.11-PM.png?fit=250%2C67&amp;ssl=1\" class=\"attachment-full size-full wp-image-15907\" alt=\"Eagle Creek Logo\">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "text-editor",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t<p><a href=\"https://www.eaglecreek.com/blogs/articles/how-to-pack-light-for-cold-weather\" target=\"_blank\" rel=\"noopener\">\u2022 Packing Light for a Cold Weather Trip. It&#8217;s in the Bag.</a></p><p><a href=\"https://www.eaglecreek.com/blogs/articles/8-ways-to-take-the-stress-out-of-holiday-travel\" target=\"_blank\" rel=\"noopener\">\u2022 8 Tips to Reduce Holiday Travel Stress</a></p><p><a href=\"https://www.eaglecreek.com/blogs/articles/the-definitive-hawaii-packing-list-based-on-your-travel-goals\" target=\"_blank\" rel=\"noopener\">\u2022 The Definitive Hawaii Packing List Based on Your Travel Goals</a></p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "divider",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<div class=\"elementor-divider\">\n\t\t\t<span class=\"elementor-divider-separator\">\n\t\t\t\t\t\t</span>\n\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "image",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"250\" height=\"132\" src=\"https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2022/10/Cire_FullColor_F1S_Horiz_RGBsmall.png?fit=250%2C132&amp;ssl=1\" class=\"attachment-full size-full wp-image-11681\" alt=\"CIRE logo new\">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "text-editor",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t<p><a href=\"https://ciretravel.com/costa-rica-or-nicaragua/\" target=\"_blank\" rel=\"noopener\">\u2022 Costa Rica or Nicaragua? Which Country is Best for Your Next Adventure?</a></p><p><a href=\"https://ciretravel.com/will-travel-for-taylor/\" target=\"_blank\" rel=\"noopener\">\u2022 Will Travel for Taylor: How to Plan a European Vacation Around Music&#8217;s Biggest Phenomenon</a></p><p><a href=\"https://ciretravel.com/a-pendry-hotel-for-all-seasons/\" target=\"_blank\" rel=\"noopener\">\u2022 A Pendry for All Seasons</a></p><p><a href=\"https://ciretravel.com/expedition-to-antarctica/\" target=\"_blank\" rel=\"noopener\">\u2022 Expect the Unexpected: How to Prepare for an Expedition to Antarctica</a></p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "divider",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<div class=\"elementor-divider\">\n\t\t\t<span class=\"elementor-divider-separator\">\n\t\t\t\t\t\t</span>\n\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "image",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"250\" height=\"76\" src=\"https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2024/01/Screen-Shot-2024-01-15-at-1.59.10-PM.png?fit=250%2C76&amp;ssl=1\" class=\"attachment-full size-full wp-image-15908\" alt=\"Meer Logo\">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "text-editor",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t<p><a href=\"https://www.meer.com/en/69877-the-magnificent-montage-palmetto-bluff\" target=\"_blank\" rel=\"noopener\">\u2022 The Magnificent Montage Palmetto Bluff</a></p><p><a href=\"https://www.meer.com/en/69849-discover-acadia-national-park\" target=\"_blank\" rel=\"noopener\">\u2022 Discover Acadia National Park</a></p><p><a href=\"https://www.meer.com/en/69911-summer-or-winter-in-stowe-vermont\" target=\"_blank\" rel=\"noopener\">\u2022 Summer or Winter in Stowe, Vermont?</a></p><p><a href=\"https://www.meer.com/en/71149-the-best-places-to-stargaze\" target=\"_blank\" rel=\"noopener\">\u2022 The Best Places to Stargaze</a></p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "divider",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<div class=\"elementor-divider\">\n\t\t\t<span class=\"elementor-divider-separator\">\n\t\t\t\t\t\t</span>\n\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "heading",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h3 class=\"elementor-heading-title elementor-size-default\">PODCASTS</h3>\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "divider",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<div class=\"elementor-divider\">\n\t\t\t<span class=\"elementor-divider-separator\">\n\t\t\t\t\t\t</span>\n\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "heading",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h5 class=\"elementor-heading-title elementor-size-default\"><a href=\"https://designhertravel.buzzsprout.com/2116687/14128490-power-of-place-how-locations-shape-our-stories-w-tips-for-building-an-authentic-website-w-travel-writer-jamie-edwards\" target=\"_blank\">DESIGN HER TRAVEL</a></h5>\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "image",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://designhertravel.buzzsprout.com/2116687/14128490-power-of-place-how-locations-shape-our-stories-w-tips-for-building-an-authentic-website-w-travel-writer-jamie-edwards\" target=\"_blank\">\n\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"600\" height=\"600\" src=\"https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2024/01/designhertravel.png?fit=600%2C600&amp;ssl=1\" class=\"attachment-full size-full wp-image-15884\" alt=\"Design Her Travel\" srcset=\"https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2024/01/designhertravel.png?w=600&amp;ssl=1 600w, https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2024/01/designhertravel.png?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2024/01/designhertravel.png?resize=150%2C150&amp;ssl=1 150w\" sizes=\"(max-width: 600px) 100vw, 600px\">\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "heading",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h5 class=\"elementor-heading-title elementor-size-default\"><a href=\"https://journeywithjake.net/episode84/\" target=\"_blank\">JOURNEY WITH JAKE</a></h5>\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "image",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://journeywithjake.net/episode84/\" target=\"_blank\">\n\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"600\" height=\"506\" src=\"https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2024/01/Screen-Shot-2024-01-14-at-8.24.47-PM.png?fit=600%2C506&amp;ssl=1\" class=\"attachment-full size-full wp-image-15888\" alt=\"Journey with Jake\" srcset=\"https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2024/01/Screen-Shot-2024-01-14-at-8.24.47-PM.png?w=600&amp;ssl=1 600w, https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2024/01/Screen-Shot-2024-01-14-at-8.24.47-PM.png?resize=300%2C253&amp;ssl=1 300w\" sizes=\"(max-width: 600px) 100vw, 600px\">\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "divider",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<div class=\"elementor-divider\">\n\t\t\t<span class=\"elementor-divider-separator\">\n\t\t\t\t\t\t</span>\n\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "heading",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h3 class=\"elementor-heading-title elementor-size-default\">BOOKS</h3>\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "text-editor",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t<p>Co-Author, Sacred Spaces: <a href=\"https://amzn.to/48UYrtW\" target=\"_blank\" rel=\"noopener\">Available on Amazon Here</a></p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "image",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"400\" src=\"https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2022/01/SacredSpaces.jpg?fit=400%2C400&amp;ssl=1\" class=\"attachment-full size-full wp-image-9451\" alt=\"Sacred Spaces book\" srcset=\"https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2022/01/SacredSpaces.jpg?w=400&amp;ssl=1 400w, https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2022/01/SacredSpaces.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2022/01/SacredSpaces.jpg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2022/01/SacredSpaces.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2022/01/SacredSpaces.jpg?resize=350%2C350&amp;ssl=1 350w\" sizes=\"(max-width: 400px) 100vw, 400px\">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "divider",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<div class=\"elementor-divider\">\n\t\t\t<span class=\"elementor-divider-separator\">\n\t\t\t\t\t\t</span>\n\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "heading",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h3 class=\"elementor-heading-title elementor-size-default\">70+ COUNTRIES / 7 CONTINENTS</h3>\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "divider",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<div class=\"elementor-divider\">\n\t\t\t<span class=\"elementor-divider-separator\">\n\t\t\t\t\t\t</span>\n\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "image",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<img data-recalc-dims=\"1\" decoding=\"async\" src=\"https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2025/01/JamieEdwardsTravelCoachLogo.jpg?w=800\" title=\"\" alt=\"Logo\" loading=\"lazy\">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t"
+      }
+    ]
+  },
+  "elementor-15992": {
+    "title": "Subscribe",
+    "blocks": [
+      {
+        "type": "heading",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h3 class=\"elementor-heading-title elementor-size-default\">SUBSCRIBE</h3>\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "heading",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h5 class=\"elementor-heading-title elementor-size-default\">Inspiring travel\u2014delivered to your inbox once a month.</h5>\t\t\t\t</div>\n\t\t\t\t"
+      },
+      {
+        "type": "image",
+        "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"600\" src=\"https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2026/01/JamieEgypt2.jpg?fit=400%2C600&amp;ssl=1\" class=\"attachment-large size-large wp-image-24947\" alt=\"Jamie in Egypt\" srcset=\"https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2026/01/JamieEgypt2.jpg?w=400&amp;ssl=1 400w, https://i0.wp.com/iamlostandfound.com/wp-content/uploads/2026/01/JamieEgypt2.jpg?resize=200%2C300&amp;ssl=1 200w\" sizes=\"(max-width: 400px) 100vw, 400px\">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t"
+      }
+    ]
+  },
+  "lets-chat": {
+    "title": "Let\u2019s Chat",
+    "blocks": []
+  },
+  "contact-me": {
+    "title": "Contact Me",
+    "blocks": []
+  },
+  "guide": {
+    "title": "The Ultimate Guide To Starting A Travel Collection",
+    "blocks": []
+  }
+}
