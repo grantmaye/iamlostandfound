@@ -1,7 +1,17 @@
-import { Post, featured, wp, dateLabel } from "@/lib/wordpress";
-import { cleanContent, text } from "@/lib/content";
+import { Comments } from "./comments";
+import {
+  Post,
+  featured,
+  wp,
+  posts,
+  categories,
+  dateLabel,
+} from "@/lib/wordpress";
+import { cleanContent, text, localLink } from "@/lib/content";
 type Comment = {
   id: number;
+  parent: number;
+  author_avatar_urls?: Record<string, string>;
   author_name: string;
   date: string;
   content: { rendered: string };
@@ -38,11 +48,21 @@ export function Sidebar() {
 }
 export async function Article({ post }: { post: Post }) {
   const image = featured(post);
-  const comments = await wp<Comment[]>("comments", {
-    post: post.id,
-    per_page: 100,
-    order: "asc",
-  });
+  const [comments, older, newer, related] = await Promise.all([
+    wp<Comment[]>("comments", { post: post.id, per_page: 100, order: "asc" }),
+    posts({ before: post.date, per_page: 1 }),
+    posts({ after: post.date, per_page: 1, order: "asc" }),
+    posts({
+      categories: post.categories.join(","),
+      exclude: post.id,
+      per_page: 3,
+    }),
+  ]);
+  const author = post._embedded?.author?.[0];
+  const tags =
+    post._embedded?.["wp:term"]
+      ?.flat()
+      .filter((t) => t.taxonomy === "post_tag") || [];
   const site = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
   const schema = {
     "@context": "https://schema.org",
@@ -69,8 +89,8 @@ export async function Article({ post }: { post: Post }) {
               <img
                 src={image.source_url}
                 alt={image.alt_text}
-                width="770"
-                height="500"
+                width={image.media_details?.width || 1500}
+                height={image.media_details?.height || 1125}
               />
             </div>
           )}
@@ -80,29 +100,106 @@ export async function Article({ post }: { post: Post }) {
               __html: cleanContent(post.content.rendered),
             }}
           />
-          <section id="comments">
-            <h2>
-              {comments.total || 0}{" "}
-              {(comments.total || 0) === 1 ? "Comment" : "Comments"}
-            </h2>
-            {comments.data.map((c) => (
-              <article className="comment" id={`comment-${c.id}`} key={c.id}>
-                <h3>{text(c.author_name)}</h3>
-                <time dateTime={c.date}>{dateLabel(c.date)}</time>
-                <div
-                  dangerouslySetInnerHTML={{
-                    __html: cleanContent(c.content.rendered),
-                  }}
-                />
-              </article>
+          <div className="article-tags">
+            {tags.map((t) => (
+              <a href={localLink(t.link)} key={t.id}>
+                {text(t.name)}
+              </a>
             ))}
-            <a
-              className="read-more"
-              href={`${process.env.WORDPRESS_URL || "https://iamlostandfound.com"}/${post.slug}/#respond`}
-            >
-              Leave a comment
-            </a>
-          </section>
+          </div>
+          <div className="article-bottom-meta">
+            <span>
+              by:{" "}
+              <a href={`/author/${author?.slug || "jamie"}/`}>
+                {author?.name || "Jamie Edwards"}
+              </a>
+            </span>
+            <span>
+              <a href="#comments">leave a comment</a> /{" "}
+              {categories(post).map((t, i) => (
+                <span key={t.id}>
+                  {i > 0 ? ", " : ""}
+                  <a href={localLink(t.link)}>{text(t.name)}</a>
+                </span>
+              ))}
+            </span>
+          </div>
+          <nav className="adjacent-posts" aria-label="Adjacent stories">
+            <div>
+              {older.data[0] && (
+                <a href={`/${older.data[0].slug}/`}>
+                  ‹ &nbsp;{text(older.data[0].title.rendered)}
+                </a>
+              )}
+            </div>
+            <div>
+              {newer.data[0] && (
+                <a href={`/${newer.data[0].slug}/`}>
+                  {text(newer.data[0].title.rendered)} &nbsp;›
+                </a>
+              )}
+            </div>
+          </nav>
+          <div className="author-card">
+            <div>
+              {author?.avatar_urls?.["96"] && (
+                <img
+                  src={author.avatar_urls["96"]}
+                  alt=""
+                  width="96"
+                  height="96"
+                />
+              )}
+            </div>
+            <div>
+              <h5>
+                More about{" "}
+                <a href={`/author/${author?.slug || "jamie"}/`}>
+                  {author?.name || "Jamie Edwards"}
+                </a>
+              </h5>
+              {author?.description && <p>{author.description}</p>}
+            </div>
+          </div>
+          {related.data.length > 0 && (
+            <section className="related-stories">
+              <h5>Related Posts</h5>
+              <div>
+                {related.data.map((p) => (
+                  <article key={p.id}>
+                    {featured(p) && (
+                      <a href={`/${p.slug}/`}>
+                        <img
+                          src={featured(p)!.source_url}
+                          alt={featured(p)!.alt_text}
+                          loading="lazy"
+                        />
+                      </a>
+                    )}
+                    <h6>
+                      <a href={`/${p.slug}/`}>{text(p.title.rendered)}</a>
+                    </h6>
+                    <time dateTime={p.date}>{dateLabel(p.date)}</time>
+                  </article>
+                ))}
+              </div>
+            </section>
+          )}
+          <Comments
+            postId={post.id}
+            open={post.comment_status === "open"}
+            wordpressUrl={(
+              process.env.WORDPRESS_URL || "https://iamlostandfound.com"
+            ).replace(/\/$/, "")}
+            items={comments.data.map((c) => ({
+              id: c.id,
+              parent: c.parent,
+              author_name: text(c.author_name),
+              date: c.date,
+              html: cleanContent(c.content.rendered),
+              avatar: c.author_avatar_urls?.["96"] || "",
+            }))}
+          />
         </article>
         <Sidebar />
       </div>

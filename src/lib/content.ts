@@ -27,13 +27,29 @@ export function cleanContent(html: string) {
     ]),
     allowedAttributes: {
       a: ["href", "title", "rel"],
-      img: ["src", "srcset", "sizes", "alt", "width", "height", "loading"],
+      img: [
+        "src",
+        "srcset",
+        "sizes",
+        "alt",
+        "width",
+        "height",
+        "loading",
+        "style",
+      ],
       source: ["src", "srcset", "type"],
       video: ["src", "controls", "poster"],
       audio: ["src", "controls"],
       "*": ["id", "class"],
       td: ["colspan", "rowspan"],
       th: ["colspan", "rowspan"],
+    },
+    allowedStyles: {
+      img: {
+        width: [/^\d+(?:\.\d+)?(?:px|%)$/],
+        height: [/^(?:auto|\d+(?:\.\d+)?(?:px|%))$/],
+        "aspect-ratio": [/^\d+(?:\.\d+)?(?:\s*\/\s*\d+(?:\.\d+)?)?$/],
+      },
     },
     allowedSchemes: ["https", "http", "mailto", "tel"],
     transformTags: {

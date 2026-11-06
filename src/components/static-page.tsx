@@ -3,7 +3,7 @@ import sanitizeHtml from "sanitize-html";
 import { cleanContent } from "@/lib/content";
 export const staticPages = pages as Record<
   string,
-  { title: string; blocks: { type: string; html: string }[] }
+  { title: string; blocks: { type: string; html: string; index: number }[] }
 >;
 function editorial(html: string) {
   return sanitizeHtml(cleanContent(html), {
@@ -44,7 +44,24 @@ export function StaticPage({ slug }: { slug: string }) {
         .slice(page.blocks[0]?.type === "heading" ? 1 : 0)
         .map((b, i) =>
           b.type === "divider" ? (
-            <div key={i} className="editorial-divider" />
+            <div key={i} data-block={b.index} className="editorial-divider" />
+          ) : b.type === "map" ? (
+            <div key={i} data-block={b.index} className="travel-map">
+              <div>
+                <iframe
+                  title="Countries Jamie has visited"
+                  src={b.html.startsWith("//") ? `https:${b.html}` : b.html}
+                  loading="lazy"
+                  sandbox="allow-scripts allow-same-origin"
+                />
+              </div>
+              <span>
+                Create a map on{" "}
+                <a href="https://www.fla-shop.com/visited-countries/">
+                  Fla-shop.com
+                </a>
+              </span>
+            </div>
           ) : b.type === "subscribe" || b.type === "inquiry" ? (
             <div key={i} className="pending-form">
               <p>
@@ -61,6 +78,7 @@ export function StaticPage({ slug }: { slug: string }) {
           ) : (
             <section
               key={i}
+              data-block={b.index}
               className={"editorial-block " + b.type}
               dangerouslySetInnerHTML={{ __html: editorial(b.html) }}
             />

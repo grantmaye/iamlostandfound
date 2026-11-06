@@ -8,8 +8,8 @@
     "start": "next start",
     "typecheck": "tsc --noEmit",
     "test": "node --import tsx --test tests/*.test.ts",
-    "format": "prettier --write src tests *.ts *.mjs *.json docs README.md",
-    "format:check": "prettier --check src tests *.ts *.mjs *.json docs README.md"
+    "format": "prettier --write src tests scripts *.ts *.mjs *.json docs README.md",
+    "format:check": "prettier --check src tests scripts *.ts *.mjs *.json docs README.md"
   },
   "dependencies": {
     "he": "^1.2.0",
@@ -25,6 +25,9 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "@types/sanitize-html": "^2",
+    "pixelmatch": "^8.0.0",
+    "playwright": "^1.65.0",
+    "pngjs": "^7.0.0",
     "prettier": "^3.9.10",
     "tailwindcss": "^4",
     "tsx": "^4",

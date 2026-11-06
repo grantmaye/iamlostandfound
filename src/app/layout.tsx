@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Header, Social } from "@/components/header";
 import "./globals.css";
+import "./editorial.css";
 export const metadata: Metadata = {
   icons: { icon: "/favicon.jpg" },
   metadataBase: new URL(
@@ -23,8 +24,14 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           <div className="shell">
             <Social />
             <p>
-              © I am Lost and Found, 2023 / Created with ♥ by{" "}
-              <a href="https://gitpixels.com">GITPIXELS</a>
+              © I am Lost and Found, 2023&nbsp;
+              <span className="footer-separator">
+                /{" "}
+                <span className="footer-credit">
+                  Created with ♥ by{" "}
+                  <a href="https://gitpixels.com">GITPIXELS</a>
+                </span>
+              </span>
             </p>
           </div>
         </footer>

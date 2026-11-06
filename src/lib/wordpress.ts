@@ -16,6 +16,7 @@ export type Post = {
   excerpt: { rendered: string };
   content: { rendered: string };
   categories: number[];
+  comment_status?: string;
   _embedded?: {
     "wp:featuredmedia"?: {
       source_url: string;
@@ -23,7 +24,12 @@ export type Post = {
       media_details?: { width: number; height: number };
     }[];
     "wp:term"?: Term[][];
-    author?: { name: string }[];
+    author?: {
+      name: string;
+      slug?: string;
+      description?: string;
+      avatar_urls?: Record<string, string>;
+    }[];
   };
 };
 const origin = (

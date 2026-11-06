@@ -34,3 +34,17 @@ test("pagination rejects malformed and unsafe page numbers", () => {
   assert.equal(pageNumber(undefined), 1);
   assert.equal(pageNumber("12"), 12);
 });
+
+test("preserves WordPress resized images without allowing arbitrary CSS", () => {
+  const html = cleanContent(
+    '<img src="https://example.com/photo.jpg" style="width:438px;height:auto;aspect-ratio:1.2945;position:fixed;background:url(https://example.com/tracker)">',
+  );
+  assert.match(html, /width:438px/);
+  assert.match(html, /height:auto/);
+  assert.match(html, /aspect-ratio:1.2945/);
+  assert.doesNotMatch(html, /position|background|tracker/);
+  assert.doesNotMatch(
+    cleanContent('<img style="width:expression(alert(1));height:calc(100vh)">'),
+    /expression|calc|alert/,
+  );
+});
